@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      // Module resolution options
+      "module": "node16",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      // Typechecking options
+      "exactOptionalPropertyTypes": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "noImplicitOverride": true,
+      "noUncheckedIndexedAccess": true,
+      "noUnusedLocals": true,
+      "noFallthroughCasesInSwitch": true,
+      "allowUnreachableCode": false,
+      "useUnknownInCatchVariables": false,
+      "target": "es2022",
+      "lib": ["es2022"],
+      // Emit options
+      "sourceMap": true,
+      "inlineSources": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true, 
+      // Performance-related options
+      "skipLibCheck": true,
+      "preserveConstEnums": true,
+      "incremental": true,
+      "composite": true,
+      // Output options
+      "pretty": true,
+      "preserveWatchOutput": true,
+      "noErrorTruncation": false // change to true if you want to see the whole error
+    },
+    "exclude": ["*"]
+}
+  
